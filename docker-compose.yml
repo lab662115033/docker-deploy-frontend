@@ -1,7 +1,8 @@
 version: '3.3'
+
 services:
   frontend:
-  image: pleansomm/234-deploylab-frontend-latest
-  pull_policy: always
-  ports:
-    - "8086:80"
+    image: thechef2546/234-deploylab-frontend:latest
+    pull_policy: always
+    ports:
+      - "8086:80"
